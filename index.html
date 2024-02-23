@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversário!</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffefd5;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #ff69b4;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      50% {
+        transform: scale(1.1);
+        opacity: 0.9;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    img {
+      width: 40%;
+      border-radius: 10px;
+      animation: rotate 5s linear infinite;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    #pix {
+      background-color: #ffffe0;
+      border: 2px dashed #ff69b4;
+      display: inline-block;
+      padding: 10px;
+      margin-top: 20px;
+      animation: fadeIn 2s;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <audio controls autoplay src="./pix.mp3" type="audio/ogg"></audio>
+  <h1>Feliz Aniversário!</h1>
+
+  <p>Aqui está um meme para fazer você sorrir no seu dia especial:</p>
+
+  <!-- Substitua 'URL_DO_GIF_AQUI' pelo link direto para o GIF -->
+
+  <p>E um PIX para você aproveitar como quiser:</p>
+
+  <!-- Substitua 'INFORMAÇÕES_DO_PIX_AQUI' pelas informações do PIX -->
+  <div id="pix">
+    <p>Chave PIX: INFORMAÇÕES_DO_PIX_AQUI</p>
+  </div>
+  <div>
+
+    <img src="./grazi.jpg" alt="Meme de Aniversário">
+  </div>
+
+</body>
+
+</html>
